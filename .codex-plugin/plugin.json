@@ -1,0 +1,40 @@
+{
+  "name": "weekly-report",
+  "version": "0.1.0",
+  "description": "Capture git activity, export structured logs, and accelerate leadership weekly reports with AI.",
+  "author": {
+    "name": "[TODO: Author Name]",
+    "email": "[TODO: author@example.com]",
+    "url": "[TODO: author homepage]"
+  },
+  "homepage": "[TODO: Plugin homepage URL]",
+  "repository": "[TODO: Repository URL]",
+  "license": "MIT",
+  "keywords": [
+    "weekly",
+    "report",
+    "git",
+    "automation"
+  ],
+  "skills": "./skills",
+  "interface": {
+    "displayName": "Weekly Report Skill",
+    "shortDescription": "Fetch git logs and prep leadership-ready weekly summaries.",
+    "longDescription": "Run /weekly-report (or the bundled CLI) to capture commits, status, and template guidance, then hand the TXT to an AI assistant for an executive-style weekly report.",
+    "developerName": "Weekly Report Team",
+    "category": "Productivity",
+    "capabilities": [
+      "Automation",
+      "Write"
+    ],
+    "websiteURL": "[TODO: project website]",
+    "privacyPolicyURL": "[TODO: privacy policy URL]",
+    "termsOfServiceURL": "[TODO: terms of service URL]",
+    "defaultPrompt": [
+      "Use $weekly-report to gather git logs and craft a leadership-ready weekly summary.",
+      "Use $weekly-report with since/until to focus on the desired reporting window.",
+      "Capture the TXT artifact and ask the AI to translate it into a short exec weekly report."
+    ],
+    "brandColor": "#1E3A8A"
+  }
+}
